@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://use.fontawesome.com/23bea62652.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Twitter</title>
+    <link rel="icon" href="./images/twitter.png">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+
+    <div id="root">
+
+        <!-- Header Section -->
+        <header class="css-general-class" style="align-items: center;">
+            <div class="css-general-class header-div-width">
+                <div class="css-general-class header-outer-container">
+                    <div class="css-general-class header-container">
+                        <!-- Header Side Nav Bar -->
+                        <div class="css-general-class header-div-align">
+                            <!-- Twitter Icon Div -->
+                            <div class="css-general-class header-div-maxWidth header-div--padding">
+                                <h1 class="h1-twitter-icon">
+                                    <a class="a-twitter-icon" href="#">
+                                        <div class="a-twitter-icon-div">
+                                            <i class="faa fa fa-twitter" aria-hidden="true"></i>
+                                        </div>
+                                    </a>
+                                </h1>
+                            </div>
+                            <!-- Nav Bar Div -->
+                            <div class="css-general-class header-nav-div">
+                                <nav class="css-general-class header-nav">
+                                    <a href="#"  id="home" class="css-general-class header-nav-a">
+                                        <div class="css-general-class header-nav-a-div">
+                                            <div class="css-general-class">
+                                                <i class="fas fa fa-home" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="header-nav-items">
+                                                <span class="header-nav-span">Home</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="css-general-class header-nav-a">
+                                        <div class="css-general-class header-nav-a-div">
+                                            <div class="css-general-class">
+                                                <i class="fas fa fa-hashtag" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="header-nav-items">
+                                                <span class="header-nav-span">Explore</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="css-general-class header-nav-a">
+                                        <div class="css-general-class header-nav-a-div">
+                                            <div class="css-general-class">
+                                                <i class="fas fa fa-bell-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="header-nav-items">
+                                                <span class="header-nav-span">Notifications</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="css-general-class header-nav-a">
+                                        <div class="css-general-class header-nav-a-div">
+                                            <div class="css-general-class">
+                                                <i class="fas fa fa-envelope-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="header-nav-items">
+                                                <span class="header-nav-span">Messages</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="css-general-class header-nav-a">
+                                        <div class="css-general-class header-nav-a-div">
+                                            <div class="css-general-class">
+                                                <i class="fas fa fa-bookmark-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="header-nav-items">
+                                                <span class="header-nav-span">Bookmarks</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="css-general-class header-nav-a">
+                                        <div class="css-general-class header-nav-a-div">
+                                            <div class="css-general-class">
+                                                <i class="fas fa fa-list" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="header-nav-items">
+                                                <span class="header-nav-span">Lists</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="css-general-class header-nav-a">
+                                        <div class="css-general-class header-nav-a-div">
+                                            <div class="css-general-class">
+                                                <i class="fas fa fa-user-o" aria-hidden="true"></i>
+                                            </div>
+                                            <div class="header-nav-items">
+                                                <span class="header-nav-span">Profile</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="css-general-class header-nav-a">
+                                        <div class="css-general-class header-nav-a-div">
+                                            <div class="css-general-class">
+                                                <i class="fas fa fa-ellipsis-h" aria-hidden="true" style="font-size: 33px;"></i>
+                                            </div>
+                                            <div class="header-nav-items">
+                                                <span class="header-nav-span">More</span>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </nav>
+                            </div>
+                            <!-- Tweet Btn Div -->
+                            <div class="css-general-class header-btn-div">
+                                <a href="#" class="css-general-class header-btn-a">
+                                    <div class="header-btn-a-div">
+                                        <span class="css-general-class header-btn-span">Tweet</span>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Header User Div -->
+                        <div class="css-general-class header-user-div">
+                            <div class="css-general-class">
+                                <div class="css-general-class header-user--div">
+                                    <!-- Profile Image -->
+                                    <div class="css-general-class">
+                                        <div class="css-general-class header-userImg-div">
+                                            <img src="./images/profile.png" alt="Edward Hogan"  height="39px" width="39px">
+                                        </div>
+                                    </div>
+                                    <!-- User Name -->
+                                    <div class="css-general-class header-user-name">
+                                        <div class="css-general-class header-user--name">
+                                            <div class="css-general-class header-user---name">
+                                                <div class="css-general-class header-user----name">
+                                                    <span id="user-name" class="header-userName-span">Edward-Hogan</span>
+                                                </div>
+                                            </div>
+                                            <div class="css-general-class header-user-nickName">
+                                                <div class="css-general-class header-user--nickName">
+                                                    <span id="user-nick-name" class="css-general-class user-nickName-span">@EdwardHogan</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- Down Arrow Icon -->
+                                    <div class="css-general-class header-user-icon">
+                                        <i class="faas fa fa-angle-down" aria-hidden="true"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+
+        <!-- Main Section -->
+        <main class="css-general-class">
+            <div class="css-general-class main-container">
+                <div class="css-general-class main--container">
+                    <div class="css-general-class main---container">
+                        <!-- Tweets Box  -->
+                        <div class="css-general-class tweets-box">
+                            <div class="css-general-class"> <!--    -->
+                                <!-- Main Header Div -->
+                                <div class="css-general-class main-header-box">
+                                    <div class="css-general-class main-header--box">
+                                        <div class="css-general-class main-header---box">
+                                            <div class="css-general-class">
+                                                <div class="css-general-class main-header----box">
+                                                    <div class="css-general-class main-header-----box">
+                                                        <!-- Header Home Div -->
+                                                        <div class="css-general-class main-header-content">
+                                                            <div class="css-general-class main-header--content">
+                                                                <h2 class="main-header-h2">
+                                                                    <span class="main-header-span">Home</span>
+                                                                </h2>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Stars Icon Div -->
+                                                        <div class="css-general-class main-header-iconBox">
+                                                            <div class="css-general-class main-header--iconBox">
+                                                                <div class="main-header---iconBox">
+                                                                    <i class="fa-main-header fa fa-star-o" aria-hidden="true"></i>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Main Post Tweet Box -->
+                                <div class="css-general-class main-post-tweet">
+                                    <div class="css-general-class main-post--tweet">
+                                        <div class="css-general-class main-post---tweet">
+                                            <div class="css-general-class">
+                                                <div class="css-general-class">
+                                                    <div class="css-general-class main-post----tweet">
+                                                        <div class="css-general-class main-post-----tweet">
+                                                            <!-- User Image -->
+                                                            <div class="css-general-class main-postTweet-img">
+                                                                <a href="#" class="css-general-class main-postTweet-img-a">
+                                                                    <div class="css-general-class main-post-img-a-div">
+                                                                        <div class="main-post-img-a--div">
+                                                                            <div class="css-general-class main-post-img-a---div">
+                                                                                <div class="css-general-class post-img-div"></div>
+                                                                                <img src="./images/profile.png" alt="Edward Hogan" class="img-box">
+                                                                            </div>
+                                                                        </div>
+                                                                        <div class="main-post-img--shadow"></div>
+                                                                    </div>
+                                                                    <div class="css-general-class main-post-img-shadow"></div>
+                                                                </a>
+                                                            </div>
+                                                            <!-- Post Tweet Box -->
+                                                            <div class="css-general-class post-tweet-box">
+                                                                <!-- Whats Happening Box -->
+                                                                <div class="css-general-class tweet-content">
+                                                                    <div class="tweet--content">
+                                                                        <div class="css-general-class tweet---content">
+                                                                            <div class="css-general-class tweet----content">
+                                                                                <div class="css-general-class tweet-content-div">
+                                                                                    <div class="css-general-class tweet-content--div">
+                                                                                        <div class="css-general-class tweet-content---div">
+                                                                                            <div class="tweet-content----div">
+                                                                                                <div class="css-general-class tweet-content-----div">
+                                                                                                    <div class="css-general-class tweet--content-div">
+                                                                                                        <div class="css-general-class tweet---content-div">
+                                                                                                            <div class="css-general-class tweet----content-div">
+                                                                                                                <div class="tweet-----content-div">
+                                                                                                                    <div class="tweet--content--div">
+                                                                                                                        <div class="tweet--content---div">
+                                                                                                                            <textarea name="#" id="tweet-content" cols="4" rows="10" placeholder="What's happening?" class="tweet--content----div"></textarea>
+                                                                                                                        </div>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <!-- Icons & Tweet Box -->
+                                                                <div>
+                                                                    <div class="css-general-class">
+                                                                        <div class="css-general-class tweet-post-icon-container">
+                                                                            <!-- Icons Box -->
+                                                                            <div class="css-general-class post-icons-container">
+                                                                                <!-- Add Photo Btn -->
+                                                                                <div class="css-general-class post-btns">
+                                                                                    <div class="css-general-class post--btns">
+                                                                                        <i class="fa-post fa fa-picture-o" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- Add GIF Btn -->
+                                                                                <div class="css-general-class post-btns">
+                                                                                    <div class="css-general-class post--btns">
+                                                                                        <i class="fa-post fa--post material-icons">gif</i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- Add Poll Btn -->
+                                                                                <div class="css-general-class post-btns">
+                                                                                    <div class="css-general-class post--btns">
+                                                                                        <i class="fa-post fa fa-bar-chart" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- Add Emoji Btn -->
+                                                                                <div class="css-general-class post-btns">
+                                                                                    <div class="css-general-class post--btns">
+                                                                                        <i class="fa-post fa fa-smile-o" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- Schedule Tweet -->
+                                                                                <div class="css-general-class post-btns">
+                                                                                    <div class="css-general-class post--btns">
+                                                                                        <i class="fa-post fa fa-calendar" aria-hidden="true"></i>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                            <!-- Btn --Tweet-- Box -->
+                                                                            <div class="css-general-class tweet-btn-container">
+                                                                                <div aria-disabled="true" id="tweet-btn" class="css-general-class tweet-btn--container">
+                                                                                    <div class="css-general-class tweet-btn---container">
+                                                                                        <span class="css-general-class tweet-btn-span">
+                                                                                            <span id="tweet-btn-span" class="css-general-class tweet-btn--span">Tweet</span>
+                                                                                        </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Line Div -->
+                                <div class="css-general-class main-line-div"></div>
+                                <!-- Main Tweets Box -->
+                                <div class="css-general-class tweets-main-box">
+                                    <div class="css-general-class">
+                                        <div id="tweets-box" class="css-general-class">
+                                            <div id="no-content-div" class="css-general-class tweets-main--box">
+                                                <!-- Welcome Div -->
+                                                <div class="css-general-class welcom-div">
+                                                    <span class="css-general-class welcome-span">
+                                                        Welcome to Twitter!
+                                                    </span>
+                                                </div>
+                                                <!-- Paragraph -->
+                                                <div class="css-general-class welcome-p-div">
+                                                    <span class="css-general-class welcome-p-span">
+                                                        This is the best place to see what’s happening in your world. Find some people and topics to follow now.
+                                                    </span>
+                                                </div>
+                                                <!-- Let's Go Btn -->
+                                                <a href="#" class="css-general-class welcome-a">
+                                                    <div class="css-general-class lets-go-btn">
+                                                        <span class="css-general-class lets-go-span">
+                                                            <span class="css-general-class lets-go--span">
+                                                                Let's go!
+                                                            </span>
+                                                        </span>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Search, Trends & Follow Box -->
+                        <div class="css-general-class col-3rd-container">
+                            <div class="css-general-class col-3rd--container">
+                                <div class="css-general-class col-3rd---container">
+                                    <div class="css-general-class col-3rd----container">
+                                        <div class="css-general-class">
+                                            <div class="css-general-class col-3rd-----container">
+                                                <!-- Search Container -->
+                                                <div class="css-general-class search-container">
+                                                    <div class="css-general-class search--container">
+                                                        <div class="css-general-class search---container">
+                                                            <div class="search----container">
+                                                                <form action="#" class="search-form">
+                                                                    <div class="css-general-class search-form-div">
+                                                                        <div class="css-general-class search-form--div">
+                                                                            <div class="css-general-class search-form---div">
+                                                                                <!-- Search Icon -->
+                                                                                <div class="css-general-class search-icon-div">
+                                                                                    <i class="fa--search fa fa-search" aria-hidden="true"></i>
+                                                                                </div>
+                                                                                <!-- Search Content -->
+                                                                                <div class="css-general-class search-content-div">
+                                                                                    <input type="text" placeholder="Search Twitter" class="search-content-input">
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </form>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Trends for you Container -->
+                                                <div class="css-general-class trends-container">
+                                                    <div class="css-general-class">
+                                                        <div class="css-general-class">
+                                                            <section class="css-general-class">
+                                                                <div class="css-general-class">
+                                                                    <div class="css-general-class">
+                                                                        <div class="css-general-class trends--container">
+                                                                            <div class="css-general-class">
+                                                                                <!-- Trends for you Div -->
+                                                                                <div class="css-general-class trends-header-container trends--header">
+                                                                                    <h2 class="css-general-class trends-Header-h2">
+                                                                                        <!-- Text -->
+                                                                                        <div class="css-general-class trends-header-h2-div">
+                                                                                            <span class="css-general-class trends-h2-div-span">
+                                                                                                Trends for you 
+                                                                                            </span>
+                                                                                        </div>
+                                                                                        <!-- Setting Icon -->
+                                                                                        <div class="css-general-class trends-setting-icon">
+                                                                                            <a href="#" class="css-general-class setting-icon-a">
+                                                                                                <div class="css-general-class setting-icon-a-div">
+                                                                                                    <i class="fa--setting fa fa-cog" aria-hidden="true"></i>
+                                                                                                </div>
+                                                                                            </a>
+                                                                                        </div>
+                                                                                    </h2>
+                                                                                </div>
+                                                                                <!-- First Hashtag -->
+                                                                                <div class="css-general-class hashtag-container">
+                                                                                    <div class="css-general-class hashtag--container">
+                                                                                        <div class="css-general-class hashtag---container">
+                                                                                            <!-- Hashtag Text -->
+                                                                                            <div class="css-general-class hashtag-text">
+                                                                                                <span class="hashtag-span">#Palestine</span>
+                                                                                            </div>
+                                                                                            <!-- Number Of Tweets -->
+                                                                                            <div class="css-general-class hashtag-number">
+                                                                                                <span class="css-general-class hashtag-number-span">
+                                                                                                    10M Tweets
+                                                                                                </span>
+                                                                                            </div>
+                                                                                            <!-- Hashtag Icon -->
+                                                                                            <div class="css-general-class hashtag-icon">
+                                                                                                <div class="css-general-class hashtag--icon">
+                                                                                                    <div class="css-general-class hashtag---icon">
+                                                                                                        <div class="css-general-class hashtag----icon">
+                                                                                                            <div class="css-general-class hashtag-----icon">
+                                                                                                                <div class="css-general-class hashtag------icon">
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                                <i class="fa--hashtag fa fa-ellipsis-h" aria-hidden="true"></i>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- Second Hash -->
+                                                                                <div class="css-general-class hashtag-container">
+                                                                                    <div class="css-general-class hashtag--container">
+                                                                                        <div class="css-general-class hashtag---container">
+                                                                                            <!-- Hashtag Text -->
+                                                                                            <div class="css-general-class hashtag-text">
+                                                                                                <span class="hashtag-span">#GSG</span>
+                                                                                            </div>
+                                                                                            <!-- Number Of Tweets -->
+                                                                                            <div class="css-general-class hashtag-number">
+                                                                                                <span class="css-general-class hashtag-number-span">
+                                                                                                    8M Tweets
+                                                                                                </span>
+                                                                                            </div>
+                                                                                            <!-- Hashtag Icon -->
+                                                                                            <div class="css-general-class hashtag-icon">
+                                                                                                <div class="css-general-class hashtag--icon">
+                                                                                                    <div class="css-general-class hashtag---icon">
+                                                                                                        <div class="css-general-class hashtag----icon">
+                                                                                                            <div class="css-general-class hashtag-----icon">
+                                                                                                                <div class="css-general-class hashtag------icon">
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                                <i class="fa--hashtag fa fa-ellipsis-h" aria-hidden="true"></i>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- Third Hash -->
+                                                                                <div class="css-general-class hashtag-container">
+                                                                                    <div class="css-general-class hashtag--container">
+                                                                                        <div class="css-general-class hashtag---container">
+                                                                                            <!-- Hashtag Text -->
+                                                                                            <div class="css-general-class hashtag-text">
+                                                                                                <span class="hashtag-span">#Waed</span>
+                                                                                            </div>
+                                                                                            <!-- Number Of Tweets -->
+                                                                                            <div class="css-general-class hashtag-number">
+                                                                                                <span class="css-general-class hashtag-number-span">
+                                                                                                    7M Tweets
+                                                                                                </span>
+                                                                                            </div>
+                                                                                            <!-- Hashtag Icon -->
+                                                                                            <div class="css-general-class hashtag-icon">
+                                                                                                <div class="css-general-class hashtag--icon">
+                                                                                                    <div class="css-general-class hashtag---icon">
+                                                                                                        <div class="css-general-class hashtag----icon">
+                                                                                                            <div class="css-general-class hashtag-----icon">
+                                                                                                                <div class="css-general-class hashtag------icon">
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                                <i class="fa--hashtag fa fa-ellipsis-h" aria-hidden="true"></i>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- Forth Hash -->
+                                                                                <div class="css-general-class hashtag-container">
+                                                                                    <div class="css-general-class hashtag--container">
+                                                                                        <div class="css-general-class hashtag---container">
+                                                                                            <!-- Hashtag Text -->
+                                                                                            <div class="css-general-class hashtag-text">
+                                                                                                <span class="hashtag-span">#Corona</span>
+                                                                                            </div>
+                                                                                            <!-- Number Of Tweets -->
+                                                                                            <div class="css-general-class hashtag-number">
+                                                                                                <span class="css-general-class hashtag-number-span">
+                                                                                                    1M Tweets
+                                                                                                </span>
+                                                                                            </div>
+                                                                                            <!-- Hashtag Icon -->
+                                                                                            <div class="css-general-class hashtag-icon">
+                                                                                                <div class="css-general-class hashtag--icon">
+                                                                                                    <div class="css-general-class hashtag---icon">
+                                                                                                        <div class="css-general-class hashtag----icon">
+                                                                                                            <div class="css-general-class hashtag-----icon">
+                                                                                                                <div class="css-general-class hashtag------icon">
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                                <i class="fa--hashtag fa fa-ellipsis-h" aria-hidden="true"></i>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- Last Hash -->
+                                                                                <div class="css-general-class hashtag-container">
+                                                                                    <div class="css-general-class hashtag--container">
+                                                                                        <div class="css-general-class hashtag---container">
+                                                                                            <!-- Hashtag Text -->
+                                                                                            <div class="css-general-class hashtag-text">
+                                                                                                <span class="hashtag-span">#Covid-19</span>
+                                                                                            </div>
+                                                                                            <!-- Number Of Tweets -->
+                                                                                            <div class="css-general-class hashtag-number">
+                                                                                                <span class="css-general-class hashtag-number-span">
+                                                                                                    800K Tweets
+                                                                                                </span>
+                                                                                            </div>
+                                                                                            <!-- Hashtag Icon -->
+                                                                                            <div class="css-general-class hashtag-icon">
+                                                                                                <div class="css-general-class hashtag--icon">
+                                                                                                    <div class="css-general-class hashtag---icon">
+                                                                                                        <div class="css-general-class hashtag----icon">
+                                                                                                            <div class="css-general-class hashtag-----icon">
+                                                                                                                <div class="css-general-class hashtag------icon">
+                                                                                                                    
+                                                                                                                </div>
+                                                                                                                <i class="fa--hashtag fa fa-ellipsis-h" aria-hidden="true"></i>
+                                                                                                            </div>
+                                                                                                        </div>
+                                                                                                    </div>
+                                                                                                </div>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <!-- Show More Link -->
+                                                                                <a href="#" class="css-general-class trends-a">
+                                                                                    <div class="css-general-class trends-a-div">
+                                                                                        <span class="css-general-class trends-a-span">
+                                                                                            Show more
+                                                                                        </span>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </section>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <!-- Who To Follow Container -->
+                                                <div class="css-general-class follow-container">
+                                                    <aside class="css-general-class">
+                                                        <!-- Who To Follow Header -->
+                                                        <div class="css-general-class follow--container">
+                                                            <h2 class="css-general-class follow-h2">
+                                                                <div class="css-general-class follow-h2-div">
+                                                                    <span class="css-general-class follow-span">
+                                                                        Who to follow
+                                                                    </span>
+                                                                </div>
+                                                            </h2>
+                                                        </div>
+                                                        <!-- Suggested Pages -->
+                                                        <div class="css-general-class">
+                                                            <!-- Page one -->
+                                                            <div class="css-general-class suggested-container">
+                                                                <div class="css-general-class suggested--container">
+                                                                    <!-- Image -->
+                                                                    <div class="css-general-class suggested-img-container">
+                                                                        <div class="css-general-class suggested-img--container">
+                                                                            <a href="#" class="css-general-class suggested-img-a">
+                                                                                <div class="css-general-class suggested-img-a--div">
+                                                                                    <div class="suggested-img-div"></div>
+                                                                                    <div class="suggested-img--div">
+                                                                                        <div class="css-general-class suggested-img---div">
+                                                                                            <div class="css-general-class suggested-img----div"></div>
+                                                                                            <img src="./images/aj.png" alt="AJ+" class="suggested-img">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="css-general-class suggested-img-a-div"></div>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- Text & Btn -->
+                                                                    <div class="css-general-class suggested-page-name-div">
+                                                                        <div class="css-general-class suggested-page-name--div">
+                                                                            <!-- Page Name -->
+                                                                            <div class="css-general-class suggested-page-name---div">
+                                                                                <a href="#" class="css-general-class suggested-page-name-a">
+                                                                                    <div class="css-general-class suggested-page-name-a-div">
+                                                                                        <!-- Name -->
+                                                                                        <div class="css-general-class suggested-page-name">
+                                                                                            <!-- Name -->
+                                                                                            <div class="css-general-class suggested--page-name">
+                                                                                                <span class="css-general-class suggested--page-name-span">
+                                                                                                    <span class="css-general-class suggested--page-name-span">
+                                                                                                        AJ+ عربي
+                                                                                                    </span>
+                                                                                                </span>
+                                                                                            </div>
+                                                                                            <!-- Verified Icon -->
+                                                                                            <div class="css-general-class suggested-page-verified">
+                                                                                                <i class="fa-verified fa fa-check-circle" aria-hidden="true"></i>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <!-- Nick Name -->
+                                                                                        <div class="css-general-class suggested-nickName-div">
+                                                                                            <div class="css-general-class suggested-nickName--div">
+                                                                                                <span class="css-general-class suggested-nickName-span">
+                                                                                                    @ajplusarabi
+                                                                                                </span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                            <!-- Follow Btn -->
+                                                                            <div class="css-general-class suggested-btn">
+                                                                                <div class="css-general-class suggested--btn">
+                                                                                    <div class="css-general-class suggested---btn">
+                                                                                        <span class="css-general-class suggested-btn--span">
+                                                                                            <span class="css-general-class suggested-btn---span">
+                                                                                                Follow
+                                                                                            </span>
+                                                                                        </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Page two -->
+                                                            <div class="css-general-class suggested-container">
+                                                                <div class="css-general-class suggested--container">
+                                                                    <!-- Image -->
+                                                                    <div class="css-general-class suggested-img-container">
+                                                                        <div class="css-general-class suggested-img--container">
+                                                                            <a href="#" class="css-general-class suggested-img-a">
+                                                                                <div class="css-general-class suggested-img-a--div">
+                                                                                    <div class="suggested-img-div"></div>
+                                                                                    <div class="suggested-img--div">
+                                                                                        <div class="css-general-class suggested-img---div">
+                                                                                            <div class="css-general-class suggested-img-jazeera----div"></div>
+                                                                                            <img src="./images/aljazeera.jpg" alt="AJ+" class="suggested-img">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="css-general-class suggested-img-a-div"></div>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- Text & Btn -->
+                                                                    <div class="css-general-class suggested-page-name-div">
+                                                                        <div class="css-general-class suggested-page-name--div">
+                                                                            <!-- Page Name -->
+                                                                            <div class="css-general-class suggested-page-name---div">
+                                                                                <a href="#" class="css-general-class suggested-page-name-a">
+                                                                                    <div class="css-general-class suggested-page-name-a-div">
+                                                                                        <!-- Name -->
+                                                                                        <div class="css-general-class suggested-page-name">
+                                                                                            <!-- Name -->
+                                                                                            <div class="css-general-class suggested--page-name">
+                                                                                                <span class="css-general-class suggested--page-name-span">
+                                                                                                    <span class="css-general-class suggested--page-name-span">
+                                                                                                        Al Jazeera En
+                                                                                                    </span>
+                                                                                                </span>
+                                                                                            </div>
+                                                                                            <!-- Verified Icon -->
+                                                                                            <div class="css-general-class suggested-page-verified">
+                                                                                                <i class="fa-verified fa fa-check-circle" aria-hidden="true"></i>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <!-- Nick Name -->
+                                                                                        <div class="css-general-class suggested-nickName-div">
+                                                                                            <div class="css-general-class suggested-nickName--div">
+                                                                                                <span class="css-general-class suggested-nickName-span">
+                                                                                                    @AJEnglish
+                                                                                                </span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                            <!-- Follow Btn -->
+                                                                            <div class="css-general-class suggested-btn">
+                                                                                <div class="css-general-class suggested--btn">
+                                                                                    <div class="css-general-class suggested---btn">
+                                                                                        <span class="css-general-class suggested-btn--span">
+                                                                                            <span class="css-general-class suggested-btn---span">
+                                                                                                Follow
+                                                                                            </span>
+                                                                                        </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                            <!-- Page three -->
+                                                            <div class="css-general-class suggested-container">
+                                                                <div class="css-general-class suggested--container">
+                                                                    <!-- Image -->
+                                                                    <div class="css-general-class suggested-img-container">
+                                                                        <div class="css-general-class suggested-img--container">
+                                                                            <a href="#" class="css-general-class suggested-img-a">
+                                                                                <div class="css-general-class suggested-img-a--div">
+                                                                                    <div class="suggested-img-div"></div>
+                                                                                    <div class="suggested-img--div">
+                                                                                        <div class="css-general-class suggested-img---div">
+                                                                                            <div class="css-general-class suggested-img-reuters----div"></div>
+                                                                                            <img src="./images/reuters.jpg" alt="AJ+" class="suggested-img">
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </div>
+                                                                                <div class="css-general-class suggested-img-a-div"></div>
+                                                                            </a>
+                                                                        </div>
+                                                                    </div>
+                                                                    <!-- Text & Btn -->
+                                                                    <div class="css-general-class suggested-page-name-div">
+                                                                        <div class="css-general-class suggested-page-name--div">
+                                                                            <!-- Page Name -->
+                                                                            <div class="css-general-class suggested-page-name---div">
+                                                                                <a href="#" class="css-general-class suggested-page-name-a">
+                                                                                    <div class="css-general-class suggested-page-name-a-div">
+                                                                                        <!-- Name -->
+                                                                                        <div class="css-general-class suggested-page-name">
+                                                                                            <!-- Name -->
+                                                                                            <div class="css-general-class suggested--page-name">
+                                                                                                <span class="css-general-class suggested--page-name-span">
+                                                                                                    <span class="css-general-class suggested--page-name-span">
+                                                                                                        Reuters
+                                                                                                    </span>
+                                                                                                </span>
+                                                                                            </div>
+                                                                                            <!-- Verified Icon -->
+                                                                                            <div class="css-general-class suggested-page-verified">
+                                                                                                <i class="fa-verified fa fa-check-circle" aria-hidden="true"></i>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                        <!-- Nick Name -->
+                                                                                        <div class="css-general-class suggested-nickName-div">
+                                                                                            <div class="css-general-class suggested-nickName--div">
+                                                                                                <span class="css-general-class suggested-nickName-span">
+                                                                                                    @Reuters
+                                                                                                </span>
+                                                                                            </div>
+                                                                                        </div>
+                                                                                    </div>
+                                                                                </a>
+                                                                            </div>
+                                                                            <!-- Follow Btn -->
+                                                                            <div class="css-general-class suggested-btn">
+                                                                                <div class="css-general-class suggested--btn">
+                                                                                    <div class="css-general-class suggested---btn">
+                                                                                        <span class="css-general-class suggested-btn--span">
+                                                                                            <span class="css-general-class suggested-btn---span">
+                                                                                                Follow
+                                                                                            </span>
+                                                                                        </span>
+                                                                                    </div>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                        <!-- Show More Link -->
+                                                        <a href="#"></a><a href="#" class="css-general-class trends-a">
+                                                            <div class="css-general-class trends-a-div">
+                                                                <span class="css-general-class trends-a-span">
+                                                                    Show more
+                                                                </span>
+                                                            </div>
+                                                        </a>
+                                                    </aside>
+                                                </div>
+                                                <!-- Terms Container -->
+                                                <div class="css-general-class terms-container">
+                                                    <nav class="css-general-class terms--container">
+                                                        <!-- Terms Of Service -->
+                                                        <a href="#" class="css-general-class terms-a">
+                                                            <span class="css-general-class terms-span">
+                                                                Terms of Service
+                                                            </span>
+                                                        </a>
+                                                        <!-- Privacy Policy -->
+                                                        <a href="#" class="css-general-class terms-a">
+                                                            <span class="css-general-class terms-span">
+                                                                Privacy Policy
+                                                            </span>
+                                                        </a>
+                                                        <!-- Cookie Policy -->
+                                                        <a href="#" class="css-general-class terms-a">
+                                                            <span class="css-general-class terms-span">
+                                                                Cookie Policy
+                                                            </span>
+                                                        </a>
+                                                        <!-- Ads info -->
+                                                        <a href="#" class="css-general-class terms-a">
+                                                            <span class="css-general-class terms-span">
+                                                                Ads info
+                                                            </span>
+                                                        </a>
+                                                        <!-- More -->
+                                                        <div class="css-general-class terms-more-div">
+                                                            <div class="css-general-class terms-more--div">
+                                                                More
+                                                                <i class="fa-footer fa fa-ellipsis-h" aria-hidden="true"></i>
+                                                            </div>
+                                                        </div>
+                                                        <!-- 2020 Twitter -->
+                                                        <div class="css-general-class terms-last-link">
+                                                            <span class="css-general-class terms-last-span">
+                                                                © 2020 Twitter, Inc.
+                                                            </span>
+                                                        </div>
+                                                    </nav>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
